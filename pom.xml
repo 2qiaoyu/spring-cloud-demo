@@ -3,11 +3,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>spring-cloud-eureka</module>
+        <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-eureka-client</module>
         <module>spring-cloud-ribbon-client</module>
         <module>spring-cloud-feign</module>
         <module>spring-cloud-zuul-client</module>
+        <module>spring-cloud-zipkin-server</module>
+        <module>spring-cloud-user-service</module>
+        <module>spring-cloud-gateway-service</module>
+        <module>spring-cloud-zipkin-server-elasticsearch</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -20,7 +24,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-cloud-demo</name>
     <packaging>pom</packaging>
-    <description>Demo project for Spring Boot</description>
+    <description>spring-cloud-demo</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -47,7 +51,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
-            <version>Finchley.RELEASE</version>
+            <version>Edgware.RELEASE</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
