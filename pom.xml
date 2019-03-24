@@ -12,6 +12,12 @@
         <module>spring-cloud-user-service</module>
         <module>spring-cloud-gateway-service</module>
         <module>spring-cloud-zipkin-server-elasticsearch</module>
+        <module>spring-cloud-admin-server</module>
+        <module>spring-cloud-turbine-service</module>
+        <module>spring-cloud-admin-server-turbine</module>
+        <module>spring-cloud-admin-server-turbine-login</module>
+        <module>spring-cloud-eureka-client-one</module>
+        <module>spring-cloud-eureka-client-two</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

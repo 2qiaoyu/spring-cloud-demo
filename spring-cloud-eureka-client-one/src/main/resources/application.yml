@@ -3,17 +3,17 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8763
+  port: 8762
 spring:
   application:
-    name: eureka-client
+    name: eureka-client-one
 
 management:
   security:
     enabled: false
 
 logging:
-  file: "logs/spring-cloud-eureka-client.log"
+  file: "logs/spring-cloud-eureka-client-one.log"
 
 
 
