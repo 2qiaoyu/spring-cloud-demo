@@ -9,6 +9,7 @@
   Turbine聚合监控
 * spring-cloud-admin-server-turbine-login 集成Spring Boot Admin
   以及Hystrix Turbine聚合监控 Spring Boot Security账号密码登录
+* spring-cloud-auth-service 提供oauth2服务
 * spring-cloud-eureka-client eureka连接
 * spring-cloud-eureka-client-one
   eureka连接一，配合spring-cloud-admin-server-turbine使用
@@ -17,6 +18,7 @@
 * spring-cloud-feign 声明式服务调用
 * spring-cloud-gateway-service 网关服务调用user-service
 * spring-cloud-ribbon-client 负载均衡
+* spring-cloud-service-hi 使用oauth2实现对接口的权限验证管理
 * spring-cloud-turbine-service Hystrix Turbine聚合监控服务
 * spring-cloud-user-service 会员服务
 * spring-cloud-zipkin-server 链路服务

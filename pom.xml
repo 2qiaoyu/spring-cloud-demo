@@ -18,6 +18,8 @@
         <module>spring-cloud-admin-server-turbine-login</module>
         <module>spring-cloud-eureka-client-one</module>
         <module>spring-cloud-eureka-client-two</module>
+        <module>spring-cloud-auth-service</module>
+        <module>spring-cloud-service-hi</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
