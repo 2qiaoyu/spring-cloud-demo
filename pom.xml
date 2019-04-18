@@ -22,6 +22,8 @@
         <module>spring-cloud-service-hi</module>
         <module>spring-cloud-auth-service-jwt</module>
         <module>spring-cloud-uaa-service</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

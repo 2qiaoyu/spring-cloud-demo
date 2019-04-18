@@ -11,6 +11,8 @@
   以及Hystrix Turbine聚合监控 Spring Boot Security账号密码登录
 * spring-cloud-auth-service 提供oauth2服务
 * spring-cloud-auth-service-jwt 提供jwt接口权限验证
+* spring-cloud-config-server 配置中心服务端
+* spring-cloud-config-client 配置中心消费端
 * spring-cloud-eureka-client eureka连接
 * spring-cloud-eureka-client-one
   eureka连接一，配合spring-cloud-admin-server-turbine使用
