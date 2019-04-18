@@ -24,6 +24,7 @@
         <module>spring-cloud-uaa-service</module>
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-config-client</module>
+        <module>spring-cloud-apollo-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
