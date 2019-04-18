@@ -9,6 +9,7 @@
   Turbine聚合监控
 * spring-cloud-admin-server-turbine-login 集成Spring Boot Admin
   以及Hystrix Turbine聚合监控 Spring Boot Security账号密码登录
+* spring-cloud-apollo-client apollo服务消费端
 * spring-cloud-auth-service 提供oauth2服务
 * spring-cloud-auth-service-jwt 提供jwt接口权限验证
 * spring-cloud-config-server 配置中心服务端
