@@ -56,25 +56,16 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
-			<version>1.4.6.RELEASE</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
-			<version>1.4.6.RELEASE</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-turbine</artifactId>
-			<version>1.4.6.RELEASE</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>archaius-core</artifactId>
-					<groupId>com.netflix.archaius</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -86,7 +77,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>1.5.19.RELEASE</version>
 		</dependency>
 
 		<dependency>

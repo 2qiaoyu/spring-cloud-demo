@@ -14,25 +14,11 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-turbine</artifactId>
-			<version>1.4.6.RELEASE</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>archaius-core</artifactId>
-					<groupId>com.netflix.archaius</groupId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-
-		<dependency>
-			<groupId>com.netflix.archaius</groupId>
-			<artifactId>archaius-core</artifactId>
-			<version>0.7.6</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>1.5.19.RELEASE</version>
 		</dependency>
 
 		<dependency>

@@ -1,7 +1,10 @@
 ## 《深入理解Spring Cloud与微服务构建》 对应的demo
-### dome版本
-* Spring Boot 1.5.18.RELEASE
-* Spring Cloud Edgware.RELEASE
+### 版本
+* jdk 1.80_201
+* Spring Boot 1.5.20.RELEASE
+* Spring Cloud Edgware.SR5
+* Mysql 5.6
+* RabbitMQ 3.7.4
 
 ### 模块
 * spring-cloud-admin-server 集成Spring Boot Admin
